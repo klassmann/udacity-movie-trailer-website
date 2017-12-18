@@ -2,7 +2,7 @@
 It is the first project from the Full-Stack Web Developer course.
 
 ## Usage:
-You can use Python 2.7 ou Python 3.* to run.
+You can use Python 2.7 or Python 3.* to run.
 
 You must execute:
 
