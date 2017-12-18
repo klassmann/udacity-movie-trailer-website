@@ -1,4 +1,4 @@
-# Udacity - FSW - Movie Trailer Site
+# Udacity - FSWD - Movie Trailer Site
 It is the first project from the Full-Stack Web Developer course.
 
 ## Usage:
