@@ -2,14 +2,24 @@ import webbrowser
 import os
 import re
 
+# Get the absolute path of the templates directory
+TEMPLATE_DIR = os.path.join(os.getcwd(), 'templates')
+
+# Reads the content from the template file.
+def read_template(template_file):
+    content = ""
+    with open(os.path.join(TEMPLATE_DIR, template_file)) as f:
+        content = f.read()
+    return content
+
 # Styles and scripting for the page
-main_page_head = open('templates/main_head.html').read()
+main_page_head = read_template('main_head.html')
 
 # The main page layout and title bar
-main_page_content = open('templates/main_page_content.html').read()
+main_page_content = read_template('main_page_content.html')
 
 # A single movie entry html template
-movie_tile_content = open('templates/main_tile_content.html').read()
+movie_tile_content = read_template('movie_tile_content.html')
 
 
 def create_movie_tiles_content(movies):
