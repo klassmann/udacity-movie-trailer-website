@@ -2,10 +2,10 @@
 This project generates an HTML page with a gallery of some of my favorite movies; you can see details about the film like title, poster image, year of release and clicking in the poster will show you the trailer.
 
 ## Requirements
-    - Python 2.7 or
-    - Python 3.x
 
-    You can download python (here)[https://www.python.org/downloads/].
+- Python 2.7 or Python 3.x
+
+You can download python (here)[https://www.python.org/downloads/].
 
 ## Usage:
 You must run *entertainment_center.py* script with python, like this:
