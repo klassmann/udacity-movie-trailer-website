@@ -1,5 +1,5 @@
 # Udacity - FSWD - Movie Trailer Site
-This project generates an HTML page with a gallery of some of my favorite movies; you can see details about the film like title, poster image, year of release and clicking in the poster will show you the trailer.
+This project generates an HTML page with a gallery of some of my favorite movies; you can see details about the film like title, poster image, year of release and storyline. Clicking in the poster will show you the trailer.
 
 ## Requirements
 
@@ -8,13 +8,13 @@ This project generates an HTML page with a gallery of some of my favorite movies
 You can download python [here](https://www.python.org/downloads/).
 
 ## Usage:
-You must run **entertainment_center.py** script with **python**, like this:
+You must run **entertainment_center.py** script with **python** like this:
 
     $ python entertainment_center.py
 
-This script will create the **fresh_tomatoes.html** which is the page of the website, after that the script will open a web browser for you and show the web page.
+This script will create the **fresh_tomatoes.html** which is the page of the website, after that, the script will open a web browser for you and show the web page.
 
-## Extra informations
+## Extra Information
 This project was tested with:
 - Python 2.7.9, MacOS X
 - Python 3.4.2, MacOS X
