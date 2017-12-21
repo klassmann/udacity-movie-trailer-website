@@ -1,6 +1,8 @@
 # Udacity - FSWD - Movie Trailer Site
 This project generates an HTML page with a gallery of some of my favorite movies; you can see details about the film like title, poster image, year of release and storyline. Clicking in the poster will show you the trailer.
 
+This project is part of my [Full-Stack Web Developer](https://br.udacity.com/course/full-stack-web-developer-nanodegree--nd004) class in Udacity.
+
 ## Requirements
 
 - Python 2.7 or Python 3.x
