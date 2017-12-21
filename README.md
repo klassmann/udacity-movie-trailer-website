@@ -14,6 +14,11 @@ You must run **entertainment_center.py** script with **python**, like this:
 
 This script will create the **fresh_tomatoes.html** which is the page of the website, after that the script will open a web browser for you and show the web page.
 
+## Extra informations
+This project was tested with:
+- Python 2.7.9, MacOS X
+- Python 3.4.2, MacOS X
+
 ## License
 You can't use this project as your project for Udacity, but you can use for study purposes if you want.
 
