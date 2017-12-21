@@ -12,6 +12,8 @@
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
+            background: #333;
+            color: #eee;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -33,9 +35,63 @@
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
             cursor: pointer;
         }
+
+        .movie-tile img {
+            opacity: 0.6;
+        }
+
+        .movie-tile h2 {
+            font-size: 1.4em;
+        }
+
+        .movie-tile i {
+            font-weight: lighter;
+            letter-spacing: 0.1em;
+            font-size: 1.2em;
+        }
+
+        .movie-tile:hover img {
+            opacity: 1;
+            box-shadow: 2px 2px 2px #000;
+        }
+
+        @keyframes storylineshow {
+            0% { 
+                height: 0px; 
+                opacity: 0;
+            }
+            100% { 
+                height: 171px; 
+                opacity: 1;
+            }
+        }
+
+        .poster {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            width: 220px;
+        }
+
+        .storyline {
+            display: block;
+            height: 0;
+            opacity: 0;
+            width: 220px;
+            position: absolute;
+            bottom: 75px;
+            background: rgba( 1, 1, 1, 0.7);
+            z-index: 200;
+            padding: 20px 5px 5px 5px;
+            font-size: 1.1em;
+        }
+
+        .movie-tile:hover .storyline {
+            animation: storylineshow 300ms cubic-bezier(.66,.62,.49,1.16) 1 both;
+        }
+
         .scale-media {
             padding-bottom: 56.25%;
             position: relative;

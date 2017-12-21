@@ -12,6 +12,8 @@
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
+            background: #333;
+            color: #eee;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -33,9 +35,63 @@
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
             cursor: pointer;
         }
+
+        .movie-tile img {
+            opacity: 0.6;
+        }
+
+        .movie-tile h2 {
+            font-size: 1.4em;
+        }
+
+        .movie-tile i {
+            font-weight: lighter;
+            letter-spacing: 0.1em;
+            font-size: 1.2em;
+        }
+
+        .movie-tile:hover img {
+            opacity: 1;
+            box-shadow: 2px 2px 2px #000;
+        }
+
+        @keyframes storylineshow {
+            0% { 
+                height: 0px; 
+                opacity: 0;
+            }
+            100% { 
+                height: 171px; 
+                opacity: 1;
+            }
+        }
+
+        .poster {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            width: 220px;
+        }
+
+        .storyline {
+            display: block;
+            height: 0;
+            opacity: 0;
+            width: 220px;
+            position: absolute;
+            bottom: 75px;
+            background: rgba( 1, 1, 1, 0.7);
+            z-index: 200;
+            padding: 20px 5px 5px 5px;
+            font-size: 1.1em;
+        }
+
+        .movie-tile:hover .storyline {
+            animation: storylineshow 300ms cubic-bezier(.66,.62,.49,1.16) 1 both;
+        }
+
         .scale-media {
             padding-bottom: 56.25%;
             position: relative;
@@ -101,23 +157,59 @@
     </div>
     <div class="container">
       <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="pRwKywm7qh4" data-toggle="modal" data-target="#trailer">
-    <img src="https://www.movieposter.com/posters/archive/main/92/MPW-46171" width="220" height="342">
+    <div class="poster">
+        <img src="https://i.imgur.com/GyBR4U3.jpg" width="220" height="342">
+        <div class="storyline">
+            <p>Terence Hill and Bud Spencer in Trinity</p>
+        </div>
+    </div>
     <h2>Trinity is still my name</h2>
+    <i>Released Date: 1971</i>
 </div><div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="1g3_CFmnU7k" data-toggle="modal" data-target="#trailer">
-    <img src="https://i.pinimg.com/736x/ac/89/c7/ac89c7aaef5754bfd5d7b4a698fdb6cc--star-wars-episode--episode-iv.jpg" width="220" height="342">
+    <div class="poster">
+        <img src="https://i.imgur.com/AJEEZXe.jpg" width="220" height="342">
+        <div class="storyline">
+            <p>A movie about Luke Skywalker</p>
+        </div>
+    </div>
     <h2>Star Wars</h2>
+    <i>Released Date: 1977</i>
 </div><div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="wj0I8xVTV18" data-toggle="modal" data-target="#trailer">
-    <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNjljYjZjNmItOGVlNC00MjNlLWJkZjYtYzExZmJiZTY3OTlhL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY1000_CR0,0,666,1000_AL_.jpg" width="220" height="342">
+    <div class="poster">
+        <img src="https://goo.gl/Sm5mPE" width="220" height="342">
+        <div class="storyline">
+            <p>A movie about William Wallace</p>
+        </div>
+    </div>
     <h2>BraveHeart</h2>
+    <i>Released Date: 1995</i>
 </div><div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="D5PpsKZFvPU" data-toggle="modal" data-target="#trailer">
-    <img src="https://images-na.ssl-images-amazon.com/images/I/51A2QPSBV2L.jpg" width="220" height="342">
+    <div class="poster">
+        <img src="https://goo.gl/ShihNW" width="220" height="342">
+        <div class="storyline">
+            <p></p>
+        </div>
+    </div>
     <h2>The Good, The Bad and The Ugly</h2>
+    <i>Released Date: 1968</i>
 </div><div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="XTWYKf5hXIg" data-toggle="modal" data-target="#trailer">
-    <img src="https://images-na.ssl-images-amazon.com/images/I/51UdG6rzHkL.jpg" width="220" height="342">
+    <div class="poster">
+        <img src="https://goo.gl/WjBPUY" width="220" height="342">
+        <div class="storyline">
+            <p></p>
+        </div>
+    </div>
     <h2>Tombstone</h2>
+    <i>Released Date: 1993</i>
 </div><div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="2LnShmQ_hLc" data-toggle="modal" data-target="#trailer">
-    <img src="https://i.pinimg.com/originals/d7/e1/95/d7e19534778b9e989f531b72906e7922.jpg" width="220" height="342">
+    <div class="poster">
+        <img src="https://goo.gl/xP1TuD" width="220" height="342">
+        <div class="storyline">
+            <p></p>
+        </div>
+    </div>
     <h2>Back to the Future</h2>
+    <i>Released Date: 1985</i>
 </div>
     </div>
   </body>

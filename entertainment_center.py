@@ -4,7 +4,7 @@ import fresh_tomatoes
 trinity = media.Movie(
     "Trinity is still my name",
     "Terence Hill and Bud Spencer in Trinity",
-    "https://goo.gl/sEjmoH",
+    "https://i.imgur.com/GyBR4U3.jpg",
     "https://www.youtube.com/watch?v=pRwKywm7qh4",
     1971
 )
@@ -12,7 +12,7 @@ trinity = media.Movie(
 starwars = media.Movie(
     "Star Wars",
     "A movie about Luke Skywalker",
-    "https://goo.gl/miM1QG",
+    "https://i.imgur.com/AJEEZXe.jpg",
     "https://www.youtube.com/watch?v=1g3_CFmnU7k",
     1977
 )
@@ -49,7 +49,6 @@ back_to_the_future = media.Movie(
     1985
 )
 
-movies = [trinity, starwars, braveheart, thegood_thebad_theugly, 
-          tombstone, back_to_the_future]
+movies = [trinity, starwars, braveheart, thegood_thebad_theugly, tombstone, back_to_the_future]
 
 fresh_tomatoes.open_movies_page(movies)
