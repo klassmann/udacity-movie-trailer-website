@@ -25,6 +25,12 @@ This project was tested with:
 - Python 2.7.9, MacOS X
 - Python 3.4.2, MacOS X
 
+## fresh_tomatoes.py
+This code is a modification of the original source code from this repository:
+
+- https://github.com/udacity/ud036_StarterCode
+
+
 ## License
 You can't use this project as your project for Udacity, but you can use for study purposes if you want.
 
