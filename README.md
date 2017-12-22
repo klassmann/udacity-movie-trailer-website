@@ -4,13 +4,17 @@ This project generates an HTML page with a gallery of some of my favorite movies
 This project is part of my [Full-Stack Web Developer](https://br.udacity.com/course/full-stack-web-developer-nanodegree--nd004) class in Udacity.
 
 ## Requirements
-
 - Python 2.7 or Python 3.x
 
 You can download python [here](https://www.python.org/downloads/).
 
 ## Usage:
-You must run **entertainment_center.py** script with **python** like this:
+
+You should start cloning this repository:
+
+    $ git clone https://github.com/klassmann/udacity-movie-trailer-website.git
+
+After getting the code, you must run **entertainment_center.py** script with **python** like this:
 
     $ python entertainment_center.py
 
