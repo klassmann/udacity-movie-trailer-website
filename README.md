@@ -18,7 +18,7 @@ After getting the code, you must run **entertainment_center.py** script with **p
 
     $ python entertainment_center.py
 
-This script will create the **fresh_tomatoes.html** which is the page of the website, after that, the script will open a web browser for you and show the web page.
+This script will create the **fresh_tomatoes.html** and open a web browser for you to show the page.
 
 ## Extra Information
 This project was tested with:
